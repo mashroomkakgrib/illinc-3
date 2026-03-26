@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Stark';
+  src: url('../fonts/Stark.OTF') format('opentypefont');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica.ttc') format('trutetype');
+  font-style: normal;
+  font-weight: 400;
+}
