@@ -52,7 +52,7 @@ body {
 
 .clock {
   position: absolute;
-  left: 88.5vw;
+  left: 89.3vw;
   top: 7.6vw;
   font-family: 'Stark';
   font-size: 2vw;
@@ -62,6 +62,7 @@ body {
 }
 
 .screen-2 {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -89,6 +90,9 @@ body {
 .button1 {
   width: 22.5vw;
   height: 27.1vw;
+  position: absolute;
+  top: 9vw;
+  left: 3vw;
   background-image: url('../images/button1.svg');
   background-size: cover;
   background-position: center;
@@ -105,8 +109,11 @@ body {
 }
 
 .button2 {
-  width: 22.5vw;
-  height: 27.1vw;
+  width: 18.3vw;
+  height: 27.6vw;
+  position: absolute;
+  left: 39vw;
+  top: 13vw;
   background-image: url('../images/button2.svg');
   background-size: cover;
   background-position: center;
@@ -117,14 +124,17 @@ body {
 
 .button2:hover {
   opacity: 2s;
-  background-image: url('../images/button2hover.png');
+  background-image: url('../images/button2hover.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .button3 {
-  width: 22.5vw;
-  height: 27.1vw;
+  width: 24.4vw;
+  height: 28.4vw;
+  position: absolute;
+  top: 10vw;
+  left: 70vw;
   background-image: url('../images/button3.svg');
   background-size: cover;
   background-position: center;
@@ -141,10 +151,60 @@ body {
 
 .screen-3 {
   display: flex;
-  flex-direction: column;
+  position: relative;
   width: 100%;
-  height: 63.3vw;
+  height: 71.6vw;
   overflow: hidden;
+}
+
+.photo1 {
+  width: 58vw;
+  height: 40.3vw;
+  /* position: absolute;
+  top: 0vw;
+  left: 2vw; */
+  position: absolute;
+  cursor: pointer;
+}
+
+.photo2 {
+  width: 54.2vw;
+  height: 34.3vw;
+  /* position: absolute;
+  top: 15vw;
+  left: 44vw; */
+  position: absolute;
+  cursor: pointer;
+}
+
+.photo3 {
+  width: 55vw;
+  height: 35.7vw;
+  /* position: absolute;
+  top: 34vw;
+  left: 3vw; */
+  position: absolute;
+  cursor: pointer;
+}
+
+.photofilm {
+  width: 20.1vw;
+  height: 20.1vw;
+  /* position: absolute;
+  top: 5vw;
+  left: 56vw; */
+  position: absolute;
+  cursor: pointer;
+}
+
+.names {
+  width: 33vw;
+  height: 18vw;
+  /* position: absolute;
+  top: 45vw;
+  left: 51vw; */
+  position: absolute;
+  cursor: pointer;
 }
 
 .film1 {
@@ -162,9 +222,9 @@ body {
   padding: 20px;
   box-sizing: border-box;
 }
-.section.visible {
+/* .section.visible {
   opacity: 1;
   visibility: visible;
   transition: opacity 0.2s ease-in-out;
   overflow: auto;
-}
+} */
