@@ -52,13 +52,21 @@ body {
 
 .clock {
   position: absolute;
-  left: 87vw;
-  top: 9.6vw;
+  left: 88.5vw;
+  top: 7.6vw;
   font-family: 'Stark';
   font-size: 2vw;
   color: #fffaee;
   filter: blur(0.05vw);
   -webkit-text-stroke: 0.1vw #f7ac00;
+}
+
+.screen-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 43.5vw;
+  overflow: hidden;
 }
 
 .text-2 {
@@ -129,6 +137,14 @@ body {
   background-image: url('../images/button3hover.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.screen-3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 63.3vw;
+  overflow: hidden;
 }
 
 .film1 {
