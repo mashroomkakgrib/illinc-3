@@ -114,3 +114,21 @@ photo2.onmousedown = function (event) {
 photo2.ondragstart = function () {
   return false;
 };
+
+const item = document.getElementById('item');
+
+item.addEventListener('dragstart', (e) => {
+  e.dataTransfer.setData('text/plain', e.target.id);
+});
+
+const dropzone = document.querySelector('.dropzone');
+dropzone.addEventListener('dragover', (e) => {
+  e.preventDefault(); // Необходимо, чтобы разрешить сброс
+});
+
+dropzone.addEventListener('drop', (e) => {
+  e.preventDefault();
+  const id = e.dataTransfer.getData('text/plain');
+  const draggableElement = document.getElementById(id);
+  e.target.appendChild(draggableElement);
+});
