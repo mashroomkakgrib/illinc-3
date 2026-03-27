@@ -222,9 +222,40 @@ body {
   padding: 20px;
   box-sizing: border-box;
 }
-/* .section.visible {
+/* .film1.visible {
   opacity: 1;
   visibility: visible;
   transition: opacity 0.2s ease-in-out;
   overflow: auto;
 } */
+
+.film2 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-image: url('../images/rectangle.svg');
+  background-size: cover;
+  /* background-color: #c5c4c4; */
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.film3 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-image: url('../images/rectangle.svg');
+  background-size: cover;
+  /* background-color: #c5c4c4; */
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}

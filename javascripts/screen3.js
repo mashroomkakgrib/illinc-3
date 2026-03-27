@@ -110,7 +110,6 @@ photo2.onmousedown = function (event) {
   };
 };
 
-// Отмена браузерного Drag and Drop
 photo2.ondragstart = function () {
   return false;
 };
