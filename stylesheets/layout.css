@@ -213,14 +213,28 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 62.5vw;
   z-index: 1000;
-  background-image: url('../images/rectangle.svg');
+  background-image: url('../images/film1.svg');
   background-size: cover;
-  /* background-color: #c5c4c4; */
+  background-color: #c5c4c4;
   overflow-y: auto;
   padding: 20px;
   box-sizing: border-box;
+}
+
+.buttoninfilm1 {
+  width: 24.4vw;
+  height: 28.4vw;
+  position: absolute;
+  top: 10vw;
+  left: 70vw;
+  background-image: url('../images/button3.svg');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
 /* .film1.visible {
   opacity: 1;
@@ -237,12 +251,25 @@ body {
   width: 100%;
   height: 100%;
   z-index: 1000;
-  background-image: url('../images/rectangle.svg');
+  background-image: url('../images/film2.svg');
   background-size: cover;
   /* background-color: #c5c4c4; */
   overflow-y: auto;
   padding: 20px;
   box-sizing: border-box;
+}
+.buttoninfilm2 {
+  width: 24.4vw;
+  height: 28.4vw;
+  position: absolute;
+  top: 10vw;
+  left: 70vw;
+  background-image: url('../images/button3.svg');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
 .film3 {
   display: none;
@@ -252,10 +279,23 @@ body {
   width: 100%;
   height: 100%;
   z-index: 1000;
-  background-image: url('../images/rectangle.svg');
+  background-image: url('../images/film3.svg');
   background-size: cover;
   /* background-color: #c5c4c4; */
   overflow-y: auto;
   padding: 20px;
   box-sizing: border-box;
+}
+.buttoninfilm3 {
+  width: 24.4vw;
+  height: 28.4vw;
+  position: absolute;
+  top: 10vw;
+  left: 70vw;
+  background-image: url('../images/button3.svg');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
