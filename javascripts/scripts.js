@@ -25,6 +25,12 @@ document.addEventListener('DOMContentLoaded', function () {
     target.style.display = 'block';
   });
 
+  const button4 = document.getElementById('button4');
+  button4.addEventListener('click', function () {
+    const target = document.getElementById('film4');
+    target.style.display = 'block';
+  });
+
   const buttoninfilm1 = document.getElementById('buttoninfilm1');
   buttoninfilm1.addEventListener('click', function () {
     const target = document.getElementById('film1');
@@ -40,6 +46,12 @@ document.addEventListener('DOMContentLoaded', function () {
   const buttoninfilm3 = document.getElementById('buttoninfilm3');
   buttoninfilm3.addEventListener('click', function () {
     const target = document.getElementById('film3');
+    target.style.display = 'none';
+  });
+
+  const buttoninfilm4 = document.getElementById('buttoninfilm4');
+  buttoninfilm4.addEventListener('click', function () {
+    const target = document.getElementById('film4');
     target.style.display = 'none';
   });
 });
