@@ -1,7 +1,7 @@
-/* @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   body {
     width: 100%;
-    height: 564vw;
+    height: 578vw;
   }
   .screen-1 {
     display: flex;
@@ -54,165 +54,165 @@
     color: #fffaee;
     filter: blur(0.05vw);
     -webkit-text-stroke: 0.1vw #f7ac00;
+
+    .text-2 {
+      width: 100vw;
+      height: 18.6vw;
+      position: absolute;
+      top: 182.4vw;
+      background-color: black;
+      display: flex;
+      padding: 0.7vw;
+      /* justify-content: center; */
+      /* align-items: center; */
+      gap: 1.7vw;
+      font-size: 4vw;
+      font-family: 'Stark';
+      color: #fffaee;
+      filter: blur(0.04vw);
+      -webkit-text-stroke: 0.13vw #f7ac00;
+    }
+
+    .screen-2 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 217vw;
+      overflow: hidden;
+    }
+    .button1 {
+      width: 47.9vw;
+      height: 59.9vw;
+      position: absolute;
+      top: 8vw;
+      left: 9vw;
+      background-image: url(../images/screen-2/buttons/button1.svg);
+      background-size: cover;
+      background-position: center;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      transition: all 0.1s ease;
+    }
+
+    .button2 {
+      width: 33.5vw;
+      height: 53.5vw;
+      position: absolute;
+      left: 10.7vw;
+      top: 113vw;
+      background-image: url(../images/screen-2/buttons/button2.svg);
+      background-size: cover;
+      background-position: center;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      transition: all 0.1s ease;
+    }
+
+    .button3 {
+      width: 46.5vw;
+      height: 55.2vw;
+      position: absolute;
+      top: 66vw;
+      left: 47vw;
+      background-image: url(../images/screen-2/buttons/button3.svg);
+      background-size: cover;
+      background-position: center;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      transition: all 0.1s ease;
+    }
+
+    .button4 {
+      width: 48.9vw;
+      height: 51.4vw;
+      position: absolute;
+      top: 163vw;
+      left: 44.6vw;
+      background-image: url(../images/screen-2/buttons/button4.svg);
+      background-size: cover;
+      background-position: center;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      transition: all 0.1s ease;
+    }
   }
 
-  .text-2 {
-    width: 100vw;
-    height: 18.6vw;
-    position: absolute;
-    top: 182.4vw;
-    background-color: black;
+  .screen-3 {
     display: flex;
-    padding: 0.7vw;
-    /* justify-content: center; */
-/* align-items: center; */
-/* gap: 1.7vw;
-    font-size: 4vw;
-    font-family: 'Stark';
-    color: #fffaee;
-    filter: blur(0.04vw);
-    -webkit-text-stroke: 0.13vw #f7ac00;
-  }
-
-  .screen-2 {
     position: relative;
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    height: 217vw;
+    height: 91.6vw;
     overflow: hidden;
   }
-  .button1 {
-    width: 47.9vw;
-    height: 59.9vw;
+
+  .photos {
     position: absolute;
-    top: 8vw;
-    left: 9vw;
-    background-image: url(../images/screen-2/buttons/button1.svg);
-    background-size: cover;
-    background-position: center;
-    border: none;
+    left: -17vw;
+    top: -3vw;
+    width: 122.8vw;
+    height: 64.7vw;
+    object-fit: contain;
+    display: block;
     cursor: pointer;
-    padding: 0;
-    transition: all 0.1s ease;
   }
 
-  .button2 {
-    width: 33.5vw;
-    height: 53.5vw;
+  .photobooth {
     position: absolute;
-    left: 10.7vw;
-    top: 113vw;
-    background-image: url(../images/screen-2/buttons/button2.svg);
-    background-size: cover;
-    background-position: center;
-    border: none;
+    left: -2vw;
+    top: -1vw;
+    width: 33.4vw;
+    height: 108vw;
+    object-fit: contain;
+    display: block;
     cursor: pointer;
-    padding: 0;
-    transition: all 0.1s ease;
   }
 
-  .button3 {
-    width: 46.5vw;
-    height: 55.2vw;
+  .photofilm {
     position: absolute;
-    top: 66vw;
-    left: 47vw;
-    background-image: url(../images/screen-2/buttons/button3.svg);
-    background-size: cover;
-    background-position: center;
-    border: none;
+    left: 24.8vw;
+    top: 49.4vw;
+    width: 73.8vw;
+    height: 37vw;
+    object-fit: contain;
+    display: block;
     cursor: pointer;
-    padding: 0;
-    transition: all 0.1s ease;
+  }
+  .screen-4 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 51.2vw;
+    overflow: hidden;
+    cursor: grab;
+    font-family: 'Chickpeas';
+    overflow: hidden;
+  }
+  .me {
+    position: absolute;
+    top: 0vw;
+    left: 26%;
+    width: 42vw;
+    height: 49.8vw;
   }
 
-  .button4 {
-    width: 48.9vw;
-    height: 51.4vw;
+  .camera {
     position: absolute;
-    top: 163vw;
-    left: 44.6vw;
-    background-image: url(../images/screen-2/buttons/button4.svg);
-    background-size: cover;
-    background-position: center;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    transition: all 0.1s ease;
+    top: 4vw;
+    left: 57%;
+    width: 68.4vw;
+    height: 64.5vw;
+  }
+
+  .photofilm2 {
+    position: absolute;
+    top: 21vw;
+    left: 5%;
+    width: 21.4vw;
+    height: 22.4vw;
   }
 }
-
-.screen-3 {
-  display: flex;
-  position: relative;
-  width: 100%;
-  height: 91.6vw;
-  overflow: hidden;
-}
-
-.photos {
-  position: absolute;
-  left: -17vw;
-  top: -3vw;
-  width: 122.8vw;
-  height: 64.7vw;
-  object-fit: contain;
-  display: block;
-  cursor: pointer;
-}
-
-.photobooth {
-  position: absolute;
-  left: -2vw;
-  top: -1vw;
-  width: 33.4vw;
-  height: 108vw;
-  object-fit: contain;
-  display: block;
-  cursor: pointer;
-}
-
-.photofilm {
-  position: absolute;
-  left: 24.8vw;
-  top: 49.4vw;
-  width: 73.8vw;
-  height: 37vw;
-  object-fit: contain;
-  display: block;
-  cursor: pointer;
-}
-.screen-4 {
-  display: flex;
-  position: relative;
-  width: 100%;
-  height: 51.2vw;
-  overflow: hidden;
-  cursor: grab;
-  font-family: 'Chickpeas';
-  overflow: hidden;
-}
-.me {
-  position: absolute;
-  top: 0vw;
-  left: 26%;
-  width: 42vw;
-  height: 49.8vw;
-}
-
-.camera {
-  position: absolute;
-  top: 4vw;
-  left: 57%;
-  width: 68.4vw;
-  height: 64.5vw;
-}
-
-.photofilm2 {
-  position: absolute;
-  top: 21vw;
-  left: 5%;
-  width: 21.4vw;
-  height: 22.4vw;
-} */
