@@ -137,3 +137,39 @@ img3.addEventListener('click', function () {
     img3.src = photofilmSrc;
   }
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  const follower = document.getElementById('cursor-follower');
+
+  document.addEventListener('mousemove', (e) => {
+    follower.style.left = e.clientX - 50 + 'px';
+    follower.style.top = e.clientY - 50 + 'px';
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  const follower = document.getElementById('cursor-follower-2');
+
+  document.addEventListener('mousemove', (e) => {
+    follower.style.left = e.clientX - 50 + 'px';
+    follower.style.top = e.clientY - 50 + 'px';
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  const follower = document.getElementById('cursor-follower-3');
+
+  document.addEventListener('mousemove', (e) => {
+    follower.style.left = e.clientX - 50 + 'px';
+    follower.style.top = e.clientY - 50 + 'px';
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  const follower = document.getElementById('cursor-follower-4');
+
+  document.addEventListener('mousemove', (e) => {
+    follower.style.left = e.clientX - 50 + 'px';
+    follower.style.top = e.clientY - 50 + 'px';
+  });
+});
