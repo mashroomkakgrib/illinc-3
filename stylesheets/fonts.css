@@ -1,12 +1,17 @@
 @font-face {
   font-family: 'Stark';
   src: url('../fonts/Stark.OTF') format('opentypefont');
+  src: url('../fonts/Stark.ttf') format('truetype');
+  src: url('../fonts/Stark.woff') format('webopenfontformat');
   font-style: normal;
   font-weight: 400;
 }
+
 @font-face {
-  font-family: 'Helvetica';
-  src: url('../fonts/Helvetica.ttc') format('trutetype');
+  font-family: '';
+  src: url('../fonts/Chickpeas.otf') format('opentypefont');
+  src: url('../fonts/Chickpeas.ttf') format('truetype');
+  src: url('../fonts/Chickpeas.woff') format('webopenfontformat');
   font-style: normal;
   font-weight: 400;
 }

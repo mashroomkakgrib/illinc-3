@@ -6,6 +6,13 @@ document.addEventListener('DOMContentLoaded', function () {
   setInterval(updateClock, 1000);
   updateClock();
 
+  const now = new Date();
+  const day = String(now.getDate()).padStart(2, '0');
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const year = now.getFullYear();
+
+  document.getElementById('date').textContent = `${day}.${month}.${year}`;
+
   document.querySelector('.buttons');
   const button1 = document.getElementById('button1');
   button1.addEventListener('click', function () {
@@ -87,4 +94,46 @@ document.querySelectorAll('.dragg').forEach((img) => {
     isDragging = false;
     activeElement = null;
   });
+});
+
+const img1 = document.getElementById('change1');
+const photoSrc = 'images/screen-3/photos.svg';
+const changePhotoSrc = 'images/screen-3/changephotos.svg';
+
+img1.addEventListener('click', function () {
+  const currentSrc = img1.getAttribute('src');
+
+  if (currentSrc.includes(photoSrc)) {
+    img1.src = changePhotoSrc;
+  } else {
+    img1.src = photoSrc;
+  }
+});
+
+const img2 = document.getElementById('change2');
+const photoboothSrc = 'images/screen-3/photobooth.svg';
+const changePhotoboothSrc = 'images/screen-3/changephotobooth.svg';
+
+img2.addEventListener('click', function () {
+  const currentSrc = img2.getAttribute('src');
+
+  if (currentSrc.includes(photoboothSrc)) {
+    img2.src = changePhotoboothSrc;
+  } else {
+    img2.src = photoboothSrc;
+  }
+});
+
+const img3 = document.getElementById('change3');
+const photofilmSrc = 'images/screen-3/photofilm.svg';
+const changePhotofilmSrc = 'images/screen-3/changephotofilm.svg';
+
+img3.addEventListener('click', function () {
+  const currentSrc = img3.getAttribute('src');
+
+  if (currentSrc.includes(photofilmSrc)) {
+    img3.src = changePhotofilmSrc;
+  } else {
+    img3.src = photofilmSrc;
+  }
 });

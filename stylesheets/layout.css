@@ -43,7 +43,18 @@ body {
 
 .clock {
   position: absolute;
-  left: 86.3vw;
+  left: 85.3vw;
+  top: 8.6vw;
+  font-family: 'Stark';
+  font-size: 2.2vw;
+  color: #fffaee;
+  filter: blur(0.05vw);
+  -webkit-text-stroke: 0.1vw #f7ac00;
+}
+
+.date {
+  position: absolute;
+  left: 67.3vw;
   top: 8.6vw;
   font-family: 'Stark';
   font-size: 2.2vw;
@@ -177,12 +188,17 @@ body {
   width: 100%;
   height: 100%;
   z-index: 1000;
-  background-image: url('../images/film1.svg');
-  background-size: cover;
+  /* background-image: url('../images/screen-2/films/film-1/film1bc.gif');
+  background-size: cover; */
   background-color: #c5c4c4;
   overflow-y: auto;
   padding: 20px;
   box-sizing: border-box;
+}
+
+.film1bc {
+  width: 100vw;
+  height: 88vw;
 }
 
 .buttoninfilm1 {
@@ -298,58 +314,90 @@ body {
   overflow: hidden;
 }
 
-.photo1 {
+.photos {
   position: absolute;
-  z-index: 1;
-  top: 59vw;
-  left: 1.4%;
-  width: 28%;
-}
-
-.photo2 {
-  width: 54.2vw;
-  height: 34.3vw;
-  /* position: absolute;
-  top: 15vw;
-  left: 44vw; */
-  position: absolute;
-  cursor: pointer;
-}
-
-.photo3 {
-  width: 55vw;
-  height: 35.7vw;
-  /* position: absolute;
-  top: 34vw;
-  left: 3vw; */
-  position: absolute;
+  left: 1vw;
+  top: -3vw;
+  width: 99.8vw;
+  height: 57.7vw;
+  object-fit: contain;
+  display: block;
   cursor: pointer;
 }
 
 .photofilm {
-  width: 20.1vw;
-  height: 20.1vw;
-  /* position: absolute;
-  top: 5vw;
-  left: 56vw; */
   position: absolute;
+  left: 35.8vw;
+  top: 42.4vw;
+  width: 59.8vw;
+  height: 26vw;
+  object-fit: contain;
+  display: block;
   cursor: pointer;
 }
 
-.names {
-  width: 33vw;
-  height: 18vw;
-  /* position: absolute;
-  top: 45vw;
-  left: 51vw; */
+.photobooth {
   position: absolute;
+  left: 1vw;
+  top: -1vw;
+  width: 26.4vw;
+  height: 81vw;
+  object-fit: contain;
+  display: block;
   cursor: pointer;
+}
+
+.dragg:active {
+  cursor: grabbing;
 }
 
 .screen-4 {
   display: flex;
   position: relative;
   width: 100%;
-  height: 45.1vw;
+  height: 45.2vw;
   overflow: hidden;
+  cursor: grab;
+  font-family: 'Chickpeas';
+  overflow: hidden;
+}
+
+.me {
+  position: absolute;
+  top: 2vw;
+  left: 31%;
+  width: 32vw;
+  height: 38.8vw;
+}
+
+.camera {
+  position: absolute;
+  top: 9vw;
+  left: 57%;
+  width: 62.4vw;
+  height: 65.5vw;
+}
+
+.photofilm2 {
+  position: absolute;
+  top: 21vw;
+  left: 5%;
+  width: 18.4vw;
+  height: 20.4vw;
+}
+
+.hse {
+  position: absolute;
+  top: 18vw;
+  left: 19%;
+  width: 16.5vw;
+  height: 7.9vw;
+}
+
+.curators {
+  position: absolute;
+  top: 7vw;
+  left: 7%;
+  width: 29.9vw;
+  height: 9.1vw;
 }
