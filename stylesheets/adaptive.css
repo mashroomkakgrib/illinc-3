@@ -1,36 +1,218 @@
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   body {
     width: 100%;
-    height: 986.8vw;
+    height: 564vw;
+  }
+  .screen-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 201.2vw;
+    overflow: hidden;
+  }
+  .text-1 {
+    width: 100vw;
+    height: 36.4vw;
+    background-color: black;
+    display: flex;
+    padding: 0.7vw;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+    font-size: 6vw;
+    font-family: 'Stark';
+    color: #fffaee;
+    filter: blur(0.12vw);
+    -webkit-text-stroke: 0.3vw #f7ac00;
+  }
+
+  .illinclogo {
+    position: absolute;
+    left: 1.8vw;
+    top: 125.4vw;
+    width: 96.5vw;
+    height: 61vw;
+  }
+
+  .clock {
+    position: absolute;
+    left: 73.3vw;
+    top: 39.6vw;
+    font-family: 'Stark';
+    font-size: 5.2vw;
+    color: #fffaee;
+    filter: blur(0.05vw);
+    -webkit-text-stroke: 0.1vw #f7ac00;
+  }
+
+  .date {
+    position: absolute;
+    left: 3.3vw;
+    top: 39.6vw;
+    font-family: 'Stark';
+    font-size: 5.2vw;
+    color: #fffaee;
+    filter: blur(0.05vw);
+    -webkit-text-stroke: 0.1vw #f7ac00;
+  }
+
+  .text-2 {
+    width: 100vw;
+    height: 18.6vw;
+    position: absolute;
+    top: 182.4vw;
+    background-color: black;
+    display: flex;
+    padding: 0.7vw;
+    /* justify-content: center; */
+/* align-items: center; */
+/* gap: 1.7vw;
+    font-size: 4vw;
+    font-family: 'Stark';
+    color: #fffaee;
+    filter: blur(0.04vw);
+    -webkit-text-stroke: 0.13vw #f7ac00;
+  }
+
+  .screen-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 217vw;
+    overflow: hidden;
+  }
+  .button1 {
+    width: 47.9vw;
+    height: 59.9vw;
+    position: absolute;
+    top: 8vw;
+    left: 9vw;
+    background-image: url(../images/screen-2/buttons/button1.svg);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: all 0.1s ease;
+  }
+
+  .button2 {
+    width: 33.5vw;
+    height: 53.5vw;
+    position: absolute;
+    left: 10.7vw;
+    top: 113vw;
+    background-image: url(../images/screen-2/buttons/button2.svg);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: all 0.1s ease;
+  }
+
+  .button3 {
+    width: 46.5vw;
+    height: 55.2vw;
+    position: absolute;
+    top: 66vw;
+    left: 47vw;
+    background-image: url(../images/screen-2/buttons/button3.svg);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: all 0.1s ease;
+  }
+
+  .button4 {
+    width: 48.9vw;
+    height: 51.4vw;
+    position: absolute;
+    top: 163vw;
+    left: 44.6vw;
+    background-image: url(../images/screen-2/buttons/button4.svg);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: all 0.1s ease;
   }
 }
-.screen-1 {
+
+.screen-3 {
   display: flex;
-  flex-direction: column;
+  position: relative;
   width: 100%;
-  height: 266.2vw;
+  height: 91.6vw;
   overflow: hidden;
 }
-.text-1 {
-  width: 100vw;
-  height: 36.4vw;
-  background-color: black;
-  display: flex;
-  padding: 0.7vw;
-  justify-content: center;
-  align-items: center;
-  gap: 21.5vw;
-  font-size: 2vw;
-  font-family: 'Stark';
-  color: #fffaee;
-  filter: blur(0.04vw);
-  -webkit-text-stroke: 0.13vw #f7ac00;
+
+.photos {
+  position: absolute;
+  left: -17vw;
+  top: -3vw;
+  width: 122.8vw;
+  height: 64.7vw;
+  object-fit: contain;
+  display: block;
+  cursor: pointer;
 }
 
-.illinclogo {
+.photobooth {
   position: absolute;
-  left: 1.8vw;
-  top: 125.4vw;
-  width: 96.5vw;
-  height: 61vw;
+  left: -2vw;
+  top: -1vw;
+  width: 33.4vw;
+  height: 108vw;
+  object-fit: contain;
+  display: block;
+  cursor: pointer;
 }
+
+.photofilm {
+  position: absolute;
+  left: 24.8vw;
+  top: 49.4vw;
+  width: 73.8vw;
+  height: 37vw;
+  object-fit: contain;
+  display: block;
+  cursor: pointer;
+}
+.screen-4 {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 51.2vw;
+  overflow: hidden;
+  cursor: grab;
+  font-family: 'Chickpeas';
+  overflow: hidden;
+}
+.me {
+  position: absolute;
+  top: 0vw;
+  left: 26%;
+  width: 42vw;
+  height: 49.8vw;
+}
+
+.camera {
+  position: absolute;
+  top: 4vw;
+  left: 57%;
+  width: 68.4vw;
+  height: 64.5vw;
+}
+
+.photofilm2 {
+  position: absolute;
+  top: 21vw;
+  left: 5%;
+  width: 21.4vw;
+  height: 22.4vw;
+} */

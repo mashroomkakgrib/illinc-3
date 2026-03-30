@@ -207,6 +207,7 @@ body {
   z-index: 1000;
   background-image: url('../images/screen-2/films/film-2/film1bc_2.gif');
   background-size: cover;
+  background-position: center;
   background-color: #c5c4c4;
   overflow-y: auto;
   padding: 20px;
@@ -223,6 +224,7 @@ body {
   z-index: 1000;
   background-image: url('../images/screen-2/films/film-3/film1bc_3.gif');
   background-size: cover;
+  background-position: center;
   background-color: #c5c4c4;
   overflow-y: auto;
   padding: 20px;
@@ -239,6 +241,7 @@ body {
   z-index: 1000;
   background-image: url('../images/screen-2/films/film-4/film1bc_4.gif');
   background-size: cover;
+  background-position: center;
   background-color: #c5c4c4;
   overflow-y: auto;
   padding: 20px;
