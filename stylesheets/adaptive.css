@@ -1,0 +1,36 @@
+@media screen and (max-width: 320px) {
+  body {
+    width: 100%;
+    height: 986.8vw;
+  }
+}
+.screen-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 266.2vw;
+  overflow: hidden;
+}
+.text-1 {
+  width: 100vw;
+  height: 36.4vw;
+  background-color: black;
+  display: flex;
+  padding: 0.7vw;
+  justify-content: center;
+  align-items: center;
+  gap: 21.5vw;
+  font-size: 2vw;
+  font-family: 'Stark';
+  color: #fffaee;
+  filter: blur(0.04vw);
+  -webkit-text-stroke: 0.13vw #f7ac00;
+}
+
+.illinclogo {
+  position: absolute;
+  left: 1.8vw;
+  top: 125.4vw;
+  width: 96.5vw;
+  height: 61vw;
+}
